@@ -1,7 +1,3 @@
-Here's a comprehensive `README` file for your system, including instructions and guidance on where to add screenshots for the user interface:
-
----
-
 # מערכת גילוי חדירות
 
 מערכת גילוי חדירות מבוססת Flask ומיועדת לניתוח תעבורת רשת והגנה על מערכות מידע. המערכת כוללת אפשרויות להתחברות, צפייה בסיכומי תנועה, והתראות בזמן אמת על ניסיון חדירה.
