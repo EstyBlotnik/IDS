@@ -1,0 +1,4 @@
+Command Injection attempt detected! | Packet: IP / TCP 192.168.1.5:12345 > 192.168.1.1:http S / Raw
+Directory Traversal attempt detected! | Packet: IP / TCP 192.168.1.5:12345 > 192.168.1.1:http S / Raw
+Command Injection attempt detected! | Packet: IP / TCP 192.168.1.5:12345 > 192.168.1.1:http S / Raw
+SQL Injection attempt detected! | Packet: IP / TCP 127.0.0.1:ftp_data > 127.0.0.1:http S / Raw

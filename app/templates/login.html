@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>התחברות</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fbe9e7; /* צבע שמנת עם נגיעה ורודה */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color: #ffffff;
+            padding: 25px 20px;
+            border-radius: 12px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            max-width: 360px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 {
+            color: #d81b60; /* צבע ורוד בולט */
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #555;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        .form-group input:focus {
+            border-color: #d81b60; /* צבע ורוד */
+            outline: none;
+            box-shadow: 0 0 5px rgba(216, 27, 96, 0.5);
+        }
+        .form-group button {
+            background-color: #d81b60; /* צבע ורוד */
+            color: white;
+            border: none;
+            padding: 12px;
+            width: 100%;
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+        .form-group button:hover {
+            background-color: #ad1457; /* ורוד כהה יותר */
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>התחברות</h1>
+        <form method="POST">
+            <div class="form-group">
+                <label for="username">שם משתמש</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">סיסמה</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">התחבר</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
